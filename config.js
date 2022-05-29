@@ -12,9 +12,9 @@ const CONFIG = {
 
   // General
   name: 'Dayat',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Layout
-  bentoLayout: 'butttons', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: 'c4d65cb32279fec46391f70ed4406d96', // Write here your API Key
